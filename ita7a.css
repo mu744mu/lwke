@@ -1,0 +1,87 @@
+ * {
+    font-family: serif;
+    font-weight: bold;
+    text-shadow: none!important;
+    font-size: 15px !important;
+}
+    .ae {
+      padding-top: 6px;
+      padding-bottom: 3px;
+      padding-left: 2px;
+      border: 1px solid black;
+      border-radius: 2px;
+      margin: 1px;
+      float: left; 
+      padding: 6px 8px;
+    }
+    .pmsgc {
+      background-color: rgba(0, 77, 255, 0.08)!important;
+    }
+    .ppmsgc {
+      background-color: #f1f1ff!important;
+    }
+    .hmsg {
+      background-color: linen!important;
+    }
+    .label-primary,
+    .btn-primary,
+    .bg-primary,
+    .label-primary:hover,
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background-color: #438ac7;
+      background-image: none;
+    } 
+    .bg {
+      background-color: #39536E;
+    } 
+    .bgg {
+      background-color: lightslategray;
+    } 
+    .pophead {
+      background-color: slategrey;
+    }
+    
+    .light {
+      background-color: #F5F5F5;
+    }
+    .label-primary,.btn-primary{  
+      background-color: #4B6A8C!important;
+    }
+    .hid {
+      display: none;
+    }
+    .typingIndicatorBubbleDot {
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  background-color: #57585a;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 1.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.typingIndicatorBubbleDot:first-of-type {
+  margin: 0px 4px;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(2) {
+  animation-delay: 0.15s;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+    @keyframes bounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}
+  </style>
